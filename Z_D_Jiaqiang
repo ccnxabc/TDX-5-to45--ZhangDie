@@ -1,3 +1,4 @@
+#根据涨跌处于5%，10%。。。45%的范围，对后续的ASHR操作起参考作用
 Z_D_JIAQIANG:IF(CLOSE>=REF(CLOSE,1),(HIGH-CLOSE)/(HIGH-LOW)*100,(LOW-CLOSE)/(HIGH-LOW)*100);
 
 
